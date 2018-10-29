@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>Fale conosco</head>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <meta charset="utf-8" />
+    <head>
+        <!-- 
+            CSS inline(na linha), CSS interno e CSS Externo
+        -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta charset="utf-8" />
+    </head>
     <body>
-        
-            <header>
+        <header>
             <div class="barra_superior">
                 <div class="container">
                     Horário de abertura: 9:00 - 18:00h
@@ -24,49 +27,44 @@
             
         </header>
         <br class="clearfix" />
-        <section class="sec_fale">
+        <section class="sec01">
             <div class="container">
-                <div class="metade">
-                    <form enctype="application/x-www-form-urlencoded" method="POST">
-                        <label for="NomeCompleto">Nome</label>
-                        <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Nome Completo" />
+                <p class="titulo">
+                    Ajuda profissional <br />
+                    para escolher as <br />
+                    melhores lentes
+                </p>
+                <p>Armações e lentes</p>
 
-                        <br />
-                        <label for="Email">Email</label>
-                        <input id="Email" type="email" name="Email" placeholder="Digite seu telefone" />
-
-                        <br />
-                        <label for="Telefone">Telefone</label>
-                        <input id="Telefone" type="tel" name="telefone" placeholder="Digite seu telefone" />
-
-                        <br />
-                        <label for="Mensagem">Mensagem</label>
-                        <textarea name="Mensagem" id="Mensagem"></textarea>
-
-                        <br />
-                        <input type="submit" />
-                    </form>
-                </div>
-                <div class="metade">
-                    <div>
-                        <strong>Redes Sociais:</strong>
-                        <br />
-                        <a href="#"><img alt="Facebook" src="img/facebook.gif" /></a>
-                        <a href="#"><img alt="Twitter" src="img/twitter.gif" /></a>
-                        <a href="#"><img alt="Instagram" src="img/instagram.gif" /></a>
-                        <br />
-                        <br />
-                        <br />
-                        <strong>Telefone:</strong> (67) 33333-3333.<br />
-                    </div>
-                    <address>
-                        Brasil, MS
-                        <br />
-                        79400-000
-                        Rua Blablabla
-                        <br />
-                        57, Centro
-                    </address>
+                <a href="ondeestamos.html" class="btn_destaque">Onde estamos</a>
+            </div>
+        </section>
+        <a name="marcas" />
+        <section class="sec02">
+            <div class="container">
+                <p>
+                    Trabalhamos com as melhores marcas de <strong>lentes</strong>
+                </p>
+                <img alt="Logo de marcas(Lentes)" src="img/LogoLentes.png" />
+            </div>
+        </section>
+        <section class="sec02">
+            <div class="container">
+                <p>
+                    e de armações 
+                </p>
+                <img alt="Lodo de marcas(Armações)" src="img/LogoArmacoes.png" />
+            </div>
+        </section>
+        <section class="sec03">
+            <div class="container">
+                <div class="largura40">
+                    <p>
+                        Grande<br />
+                        variedade<br />
+                        de armações
+                    </p>
+                    <a href="ondeestamos.html" class="btn_destaque">Venha conferir</a>
                 </div>
             </div>
         </section>
@@ -91,7 +89,7 @@
                         <h3>Links</h3>
 
                         <a href="index.html" alt="Pagina inicial">Início</a><br />
-                        <a alt="Lista de Marcas" href="#marcas">Marcas</a><br />
+                        <a alt="Lista de Marcas" href="index.html#marcas">Marcas</a><br />
                         <a title="Vai para a página de fale conosco" href="faleconosco.html">Fale Conosco</a>
                         <br />
                         <a href="ondeestamos.html">Onde estamos</a><br />
@@ -121,5 +119,6 @@
                 Todos os direitos reservados () 2018. <a href="termodeuso.html">Termos de uso</a> e <a href="politicaprivacidade.html">Polica de privacidade</a>.
             </div>
         </footer>
+        
     </body>
 </html>

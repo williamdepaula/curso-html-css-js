@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: "florentia";
+    src:url("fonts/Florentia-Thin-trial.ttf");
+}
 .clearfix {
     clear: both;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Raleway', "florentia", "Arial", sans-serif;
 }
 .barra_superior {
     border-bottom: 1px solid rgb(204, 204, 204);
@@ -141,11 +147,13 @@ nav a.btn_destaque {
     height: 500px;
     background-color: #FAFAFA;
 }
+.sec_fale .metade {
+    padding-top: 100px;
+}
 .metade {
     width: 50%;
     float: left;
     line-height: 150%;
-    padding-top: 100px;
     color: rgb(120,120,120);
 }
 
@@ -184,7 +192,7 @@ nav a.btn_destaque {
     vertical-align: top;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 480px) {
     .barra_superior .container {
         margin-left: 10px;
     }
