@@ -15,3 +15,46 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+nav a.btn_destaque {
+    margin-left: 25px;
+}
+
+.btn_destaque {
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sec01 {
+    height: 640px;
+    color: white;
+    background-image: url(../img/Home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec01 .titulo {
+    font-size: 48px;
+    padding-top: 130px;
+}
+
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%;
+}
