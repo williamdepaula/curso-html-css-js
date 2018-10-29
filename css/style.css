@@ -35,7 +35,8 @@ nav a.btn_destaque {
     margin-left: 25px;
 }
 
-.btn_destaque {
+.btn_destaque, .metade input[type=submit] {
+    border: none;
     background-color: rgb(255, 77, 77);
     color: white;
     padding: 12px 40px;
@@ -134,6 +135,53 @@ nav a.btn_destaque {
 
 .marge_esquerda {
     margin-left: 30px;
+}
+
+.sec_fale, sec_onde {
+    height: 500px;
+    background-color: #FAFAFA;
+}
+.metade {
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    padding-top: 100px;
+    color: rgb(120,120,120);
+}
+
+.metade div, .metade address {
+    margin-left: 20px;
+}
+
+.metade form {
+    line-height: 250%;
+}
+
+.metade form input[type=text], .metade form input[type=email], .metade form input[type=tel], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 64%;
+    background-color: #FAFAFA;
+    padding: 10px;
+    
+}
+
+.metade textarea {
+    min-height: 100px;
+}
+
+.metade input[type=submit] {
+    float: right;
+}
+
+.metade img {
+    height: 35px;
+}
+
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 590px) {

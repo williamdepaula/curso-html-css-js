@@ -1,25 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>Onde Estamos</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <body>
-        <div>
-            <!-- Mapas, YouTube, Propagandas, etc -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3783.9303273717765!2d-54.755133199175226!3d-18.486814857141784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1540671060618" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div>
-            <div>
-                Telefone: (67) 33333-3333.
-                Redes Sociais: (Facebook, twitter, instagram).
+        <header>
+            <div class="barra_superior">
+                <div class="container">
+                    Horário de abertura: 9:00 - 18:00h
+                </div>
             </div>
-            <address>
-                Brasil, MS
-                <br />
-                79400-000
-                Rua Blablabla
-                <br />
-                57, Centro
-            </address>
-        </div>
-    </body>
+            
+            <div class="container">
+                <img class="logo" alt="Logo da empresa" src="img/logo.jpg" title="Aqui é apresentado a logo da empresa XYZ" width="350" />
+                <nav>
+                    <a href="index.html">Página Inicial</a> | 
+                    <a href="index.html#marcas">Marcas</a> | 
+                    <a title="Vai para a página de fale conosco" href="faleconosco.html">Fale Conosco</a>
+                    <a class="btn_destaque" href="ondeestamos.html">Onde estamos</a>
+                </nav>
+            </div>
+            
+        </header>
+        <br class="clearfix" />
+        <section class="sec_onde">
+            <div class="container">
+                <div class="metade">
+                    <!-- Mapas, YouTube, Propagandas, etc -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3783.9303273717765!2d-54.755133199175226!3d-18.486814857141784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1540671060618" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="metade">
+                    <address>
+                        Brasil, MS
+                        <br />
+                        79400-000
+                        Rua Blablabla
+                        <br />
+                        57, Centro
+                    </address>
+                    <br />
+                    <br />
+                    <br />
+                    <div>
+                        <strong>Telefone:</strong> (67) 33333-3333.
+                        <br />
+                        <strong>Redes Sociais:</strong>
+                        <br />
+                        <a href="#"><img alt="Facebook" src="img/facebook.gif" /></a>
+                        <a href="#"><img alt="Twitter" src="img/twitter.gif" /></a>
+                        <a href="#"><img alt="Instagram" src="img/instagram.gif" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <br class="clearfix" />
+        <footer>
+            <div class="container">
+                <div class="um_terco">
+                    <div class="container_logo">
+                        <img class="logo" alt="Logo da empresa" src="img/logo.jpg" title="Aqui é apresentado a logo da empresa XYZ" width="350" />
+                    </div>
+                    <p>
+                        Nos oferecemos um serviço completo para o melhor conforto da sua visão.
+                    </p>
+                    <div class="container_logo">
+                        <a href="#"><img alt="Facebook" src="img/facebook.gif" /></a>
+                        <a href="#"><img alt="Twitter" src="img/twitter.gif" /></a>
+                        <a href="#"><img alt="Instagram" src="img/instagram.gif" /></a>
+                    </div>
+                </div>
+                <div class="um_terco">
+                    <div class="marge_esquerda">
+                        <h3>Links</h3>
 
+                        <a href="index.html" alt="Pagina inicial">Início</a><br />
+                        <a alt="Lista de Marcas" href="index.html#marcas">Marcas</a><br />
+                        <a title="Vai para a página de fale conosco" href="faleconosco.html">Fale Conosco</a>
+                        <br />
+                        <a href="ondeestamos.html">Onde estamos</a><br />
+                    </div>
+                </div>
+                <div class="um_terco">
+                    <h3>Contato</h3>
+                    
+                    <p>
+                        <strong>Endereço:</strong> Rua X, endereço Y, Avenida Z.
+                    </p>
+                    <p>
+                        Cidade, UF, 79000-000.
+                    </p>
+                    
+                    <p>
+                        <strong>Telefone:</strong> <a href="tel:6733333333">(67) 3333-3333</a>.
+                    </p>
+                    
+                    <p>
+                        <strong>Email:</strong> <a href="mailto:otica@otica.com.br">otica@otica.com.br</a>
+                    </p>
+                </div>
+            </div>
+            <br class="clearfix" />
+            <div class="direitos_reservados">
+                Todos os direitos reservados () 2018. <a href="termodeuso.html">Termos de uso</a> e <a href="politicaprivacidade.html">Polica de privacidade</a>.
+            </div>
+        </footer>
+    </body>
 </html>
